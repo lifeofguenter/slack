@@ -1,0 +1,18 @@
+CL\Slack\Payload\RtmStartPayloadResponse:
+    properties:
+        url:
+            type: string
+        self:
+            type: array
+        team:
+            type: array
+        users:
+            type: array<CL\Slack\Model\User>
+        channels:
+            type: array<CL\Slack\Model\Channel>
+        groups:
+            type: array<CL\Slack\Model\Group>
+        ims:
+            type: array<CL\Slack\Model\ImChannel>
+        bots:
+            type: array
